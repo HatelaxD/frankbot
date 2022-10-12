@@ -472,9 +472,6 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("*frank"):
-                 reply = "entered a full message"
-                 sendMsg()
             elif ("frank listen" in msg):
                 reply = "yes"
                 sendMsg()
